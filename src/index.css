@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+.custom-player .rhap_progress-section {
+  @apply flex-1;
+}
+
+.custom-player .rhap_container {
+  @apply bg-zinc-900 shadow-none border-t border-zinc-800 box-border;
+}
+
+.custom-player .rhap_time {
+  @apply text-gray-400;
+}
+
+.custom-player .rhap_main-controls-button {
+  @apply text-green-400;
+}
+
+.custom-player .rhap_progress-bar {
+  @apply bg-zinc-700;
+}
+
+.custom-player .rhap_progress-filled {
+  @apply bg-green-400;
+}
+
+.custom-player .rhap_progress-indicator {
+  @apply bg-green-400;
+}
+
+.custom-player .rhap_volume-button {
+  @apply text-gray-400;
+}
+
+.custom-player .rhap_volume-bar {
+  @apply bg-zinc-700;
+}
+
+.custom-player .rhap_volume-indicator {
+  @apply bg-green-400;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-600;
+}
